@@ -1,0 +1,131 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.6;
+}
+#home #length {
+  text-align: center;
+  margin-top: 20px; 
+}
+#about #l1{
+  text-align: center;
+  margin-top: 20px; 
+}
+#skills #l2
+{
+  text-align: center;
+  margin-top: 20px;
+}
+#hobbies #l3{
+  text-align: center; 
+  margin-top: 20px; 
+}
+#project #l4{
+  text-align: center;
+  margin-top: 20px; 
+}
+#contact #l5{
+  text-align: center;
+  margin-top: 20px; 
+}
+
+
+header {
+  background-color: #010101; /* Prussian Blue */
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #003366; /* Prussian Blue */
+  padding: 10px 0;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #000; /* Black */
+}
+
+section {
+  padding: 40px;
+  background-color: #003366; /* Prussian Blue */
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 60%;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.project {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #07071b; /* Black */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.project img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+
+.project a {
+  display: block;
+  margin-top: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.col{
+  color: rgb(194, 182, 182);
+}
+
+footer {
+  text-align: center;
+  background-color: #003366; /* Prussian Blue */
+  color: #fff;
+  padding: 10px;
+}
+
+
